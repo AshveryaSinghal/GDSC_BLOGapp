@@ -9,6 +9,7 @@ class ProjectsCp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      
       backgroundColor: const Color.fromARGB(255, 245, 240, 228),
       appBar: AppBar(
         centerTitle: true,
@@ -16,12 +17,12 @@ class ProjectsCp extends StatelessWidget {
           "Blog on C++",
           style: TextStyle(
               fontFamily: 'Salsa',
-              color: Colors.white,
+              color: Color.fromARGB(255, 1, 0, 0),
               fontSize: 35,
               fontWeight: FontWeight.w500),
           textAlign: TextAlign.center,
         ),
-        backgroundColor: const Color.fromARGB(255, 150, 132, 96),
+        backgroundColor: const Color.fromARGB(255, 79, 84, 237),
         elevation: 20,
       ),
       body: Column(
@@ -42,17 +43,17 @@ class ProjectsCp extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("   Advantages of     C++",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("   Advantages of     C++",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color:Colors.white ),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "As C++ doesn’t use the objects, it’s difficult to make the programs that have inheritance data and thus the reformed the programs to contribute to the other data and therefore the programs, it is possible to undertake to the present, however, but is difficult, These inheritance data and programs are mentioned because of the inheritance trees.", 
-                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15,color: Colors.white),
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -68,17 +69,17 @@ class ProjectsCp extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("Disadvantages of C++",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: const Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("Disadvantages of C++",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color: Colors.white),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "One major problem in C++ is when the info points to an equivalent thing from two different starting points, this causes a serious problem, the C++ program will still have involved problems within the coding.",
-                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15,color: Colors.white),
                           ),
                         ),
                       ),

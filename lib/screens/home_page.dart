@@ -16,9 +16,9 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color.fromARGB(255, 245, 240, 228),
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 150, 132, 96),
+        backgroundColor: Color.fromARGB(255, 79, 84, 237),
         elevation: 20, title: Text('MY BLOGS', style: TextStyle(
-          fontFamily: 'Salsa',
+          fontFamily: 'Salsa', color: Color.fromARGB(255, 1, 0, 0),
            fontSize: 30),
         
         ),
@@ -62,7 +62,7 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: 350,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 150, 132, 96),
+                  color: Color.fromARGB(255, 13, 31, 148),
                   borderRadius: BorderRadius.circular(20), boxShadow:[ BoxShadow(color: Colors.black.withOpacity(0.3),
                   spreadRadius: 5,
                   blurRadius: 7,
@@ -105,7 +105,7 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: 350,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 150, 132, 96),
+                  color: const Color.fromARGB(255, 13, 31, 148),
                   borderRadius: BorderRadius.circular(20),boxShadow:[ BoxShadow(color: Colors.black.withOpacity(0.3),
                   spreadRadius: 5,
                   blurRadius: 7,
@@ -148,7 +148,7 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: 350,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 150, 132, 96),
+                  color: const Color.fromARGB(255, 13, 31, 148),
                   borderRadius: BorderRadius.circular(20), boxShadow:[ BoxShadow(color: Colors.black.withOpacity(0.3),
                   spreadRadius: 5,
                   blurRadius: 7,
@@ -190,7 +190,7 @@ class HomePage extends StatelessWidget {
               height: 100,
               width: 350,
               decoration: BoxDecoration(
-                  color: const Color.fromARGB(255, 150, 132, 96),
+                  color: const Color.fromARGB(255, 13, 31, 148),
                   borderRadius: BorderRadius.circular(20), boxShadow:[ BoxShadow(color: Colors.black.withOpacity(0.3),
                   spreadRadius: 5,
                   blurRadius: 7,

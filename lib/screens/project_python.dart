@@ -16,12 +16,12 @@ class ProjectsPy extends StatelessWidget {
           "Blog on Python",
           style: TextStyle(
               fontFamily: 'Salsa',
-              color: Colors.white,
+              color: Color.fromARGB(255, 1, 0, 0),
               fontSize: 35,
               fontWeight: FontWeight.w500),
           textAlign: TextAlign.center,
         ),
-        backgroundColor: const Color.fromARGB(255, 150, 132, 96),
+        backgroundColor: const Color.fromARGB(255, 79, 84, 237),
         elevation: 20,
       ),
       body: Column(
@@ -42,17 +42,17 @@ class ProjectsPy extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("Advantages of Python",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: const Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("Advantages of Python",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color: Colors.white),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "Python is a free and open-source programming language. It is considered one of the main advantages of Python programming language and that’s why it has become more popular. The OSI-approved open-source licence under which Python is developed allows it to be used and distributed freely, including for commercial purposes. ", 
-                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15, color: Colors.white),
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -68,17 +68,17 @@ class ProjectsPy extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("Disadvantages of Python",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: const Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("Disadvantages of Python",textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color: Colors.white),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "The best thing about CSS is that is allows you to make global style changes that affect every instance of a certain element throughout your blog or website so that you don’t have to make these changes at the individual page level. This saves you a ton of time when it comes to redesigning your blog.",
-                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15, color: Colors.white),
                           ),
                         ),
                       ),

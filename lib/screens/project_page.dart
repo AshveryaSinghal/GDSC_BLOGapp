@@ -16,12 +16,12 @@ class ProjectsPage extends StatelessWidget {
           "Blog on HTML & CSS",
           style: TextStyle(
               fontFamily: 'Salsa',
-              color: Colors.white,
+              color: Color.fromARGB(255, 1, 0, 0),
               fontSize: 30,
               fontWeight: FontWeight.w500),
           textAlign: TextAlign.center,
         ),
-        backgroundColor: const Color.fromARGB(255, 150, 132, 96),
+        backgroundColor: const Color.fromARGB(255, 79, 84, 237),
         elevation: 20,
       ),
       body: Column(
@@ -42,17 +42,17 @@ class ProjectsPage extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("HTML",style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: const Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("HTML",style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color: Colors.white),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "HTML is the standard language that is used for creating webpages and web applications. Every time you access a website, a server sends an HTML file to your computer and your browser interprets and displays the information included in that file. In fact, all the information you are reading now is simply data that has been stored in an HTML file and sent to your browser.", 
-                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            style: TextStyle(fontFamily: 'Salsa', fontSize: 15, color: Colors.white),
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -68,17 +68,17 @@ class ProjectsPage extends StatelessWidget {
                       front: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
-                        child: Center(child: Text("CSS", style: TextStyle(fontFamily: 'Salsa', fontSize: 30),)),
+                        color: const Color.fromARGB(255, 13, 31, 148),
+                        child: Center(child: Text("CSS", style: TextStyle(fontFamily: 'Salsa', fontSize: 30, color: Colors.white),)),
                       ),
                       back: Container(
                         height: 250,
                         width: 500,
-                        color: const Color.fromARGB(255, 150, 132, 96),
+                        color: const Color.fromARGB(255, 13, 31, 148),
                         child: Center(
                           child: Text(
                             "The best thing about CSS is that is allows you to make global style changes that affect every instance of a certain element throughout your blog or website so that you don’t have to make these changes at the individual page level. This saves you a ton of time when it comes to redesigning your blog.",
-                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15),
+                            textAlign: TextAlign.center, style: TextStyle(fontFamily: 'Salsa', fontSize: 15, color: Colors.white),
                           ),
                         ),
                       ),
